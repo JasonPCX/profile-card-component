@@ -48,6 +48,7 @@ h1, h2, h3, p{
     width: 100%;
     margin: 0 auto;
     border-radius: var(--borderRadius);
+    animation: fadeIn 1s forwards;
 }
 
 .card__top {
@@ -120,4 +121,13 @@ h3 {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
