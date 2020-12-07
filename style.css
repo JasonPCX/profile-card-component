@@ -20,7 +20,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
-    min-height: 100vh;
+    height: 100vh;
     background: url(images/bg-pattern-top.svg) top -600px left -750px,
                 url(images/bg-pattern-bottom.svg) bottom -600px right -750px,
                 var(--darkCyan) ;
@@ -117,7 +117,7 @@ h3 {
     margin: 15px; 
     font-size: 11px; 
     text-align: center;
-    color: var(--gray);
+    color: #000000;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
